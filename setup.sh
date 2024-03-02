@@ -6,7 +6,7 @@ function setup_env {
     username_command="export GITHUB_USERNAME=Broski-AC"
 
     ## Check if file exists; if not, create
-    if [ ! -e ~/root/.bash_profile ];
+    if [[ ! -e ~/root/.bash_profile ]];
     then
         mkdir -p ~/root
         touch ~/root/.bash_profile
@@ -25,9 +25,7 @@ function setup_env {
 # }
 
 function result_announcement {
-    echo "value is - $1"
-    echo "vaule two is $2"
-    if [ $1 -ne 0 ]; 
+    if [[ $1 -ne 0 ]]; 
     then
         echo "$2 failure with code $1"
     else
@@ -36,5 +34,4 @@ function result_announcement {
 }
 
 env_output="$(setup_env)"
-
-result_announcement "$env_output" "3"
+result_announcement "$env_output" "setup_env()"
