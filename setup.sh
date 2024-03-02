@@ -20,9 +20,13 @@ function setup_env {
 }
 
 # Write code to a file called config.hcl, replacing variable <HOSTNAME> with vault-server.hashicorp.com
-# function setup_config () {
-
-# }
+function setup_config {
+    cat <<EOF > config.hcl
+cluster_addr  = "https://<HOSTNAME>:8201"
+api_addr      = "https://<HOSTNAME>:8200"
+disable_mlock = true
+EOF
+}
 
 function result_announcement {
     if [[ $1 -ne 0 ]]; 
@@ -33,5 +37,10 @@ function result_announcement {
     fi
 }
 
-env_output="$(setup_env)"
-result_announcement "$env_output" "setup_env()"
+# env_output="$(setup_env)"
+# result_announcement "$env_output" "setup_env()"
+
+# env_out="$(setup_config)"
+# result_announcement "env_output" "setup_config()"
+
+setup_config
