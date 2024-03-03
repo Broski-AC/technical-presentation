@@ -21,11 +21,15 @@ function setup_env {
 
 # Write code to a file called config.hcl, replacing variable <HOSTNAME> with vault-server.hashicorp.com
 function setup_config {
+    #Right now will make a duplicate copy of the file if it already exists
     cat <<EOF > config.hcl
 cluster_addr  = "https://<HOSTNAME>:8201"
 api_addr      = "https://<HOSTNAME>:8200"
 disable_mlock = true
 EOF
+
+# -i does in-place edit, -e appends all info to the command; /g does a global replace
+sed -i -e 's/<HOSTNAME>/vault-server.hashicorp.com/g' ./config.hcl
 }
 
 function result_announcement {
@@ -37,10 +41,8 @@ function result_announcement {
     fi
 }
 
-# env_output="$(setup_env)"
-# result_announcement "$env_output" "setup_env()"
+env_output="$(setup_env)"
+result_announcement "$env_output" "setup_env()"
 
-# env_out="$(setup_config)"
-# result_announcement "env_output" "setup_config()"
-
-setup_config
+env_out="$(setup_config)"
+result_announcement "env_output" "setup_config()"
