@@ -5,12 +5,10 @@ count: false
 
 # TITLE GOES HERE
 
-<!-- Image example -->
+
 ![:scale 20%](./assets/logos/HashiCorp_Enterprise_Academy_Vertical_White_RGB.png)
 
 ???
 
-<!-- Presenter notes go here -->
-Anything under the ??? are presenter notes
 
 ---

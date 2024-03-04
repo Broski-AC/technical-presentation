@@ -4,11 +4,13 @@ background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
 name: slide1
 
-## Slide 1
+## What is a Namespace?
 
-![scale:50%](./assets/logos/logo_terraform.png)
+A Vault Enterprise feature that enables organizations to create "mini-Vaults" inside their larger installation
 
-This slide uses the `img-right` class and displays an image
+Provides:
+- Tenant Isolation
+- Administration Delegation
 
 ???
 
