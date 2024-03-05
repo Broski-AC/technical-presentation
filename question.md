@@ -2,7 +2,7 @@ layout: true
 class: img-right
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
-name: namespace_def
+name: question
 
 ## How Many of You Can Relate to This?
 
@@ -16,7 +16,7 @@ name: namespace_def
 
 ???
 
-A monolithic repo to manage Vault. It's huge, unweilding, and most likely you're managing resources across multiple different spaces
+A monolithic repo to manage Vault. It's huge, unwieldy, and most likely you're managing resources across multiple different spaces
 
 One team is responsible for responding to all developer requests for Vault assistance, from PRs to troubleshooting
 

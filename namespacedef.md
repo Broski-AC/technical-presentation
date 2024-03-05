@@ -24,7 +24,7 @@ Namespaces help companies like yours provide their developers with the ability t
 
 You can configure all of the items a namespace contains into distinct instances. 
 
-Tokens are locked to a namespace; groups can pull in entites and groups from other namespaces
+Tokens are locked to a namespace; groups can pull in entities and groups from other namespaces
 
 By following some of the best practices I'll outline in the next few slides, you'll gain the confidence to use this feature across your organization, providing some much needed relief to your teams
 
