@@ -2,9 +2,9 @@ layout: true
 class: compact, col-2
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
-name: slide1
+name: namespace_def
 
-## What is a Namespace?
+## Introducing Namespaces!
 
 > A Vault Enterprise feature that enables organizations to create "mini-Vaults" inside their larger installation
 
@@ -22,9 +22,10 @@ Contains:
 
 Namespaces help companies like yours provide their developers with the ability to manage secrets in a self serving manner.
 
-You can configure all of the items a namespace contains to distinct instances. 
+You can configure all of the items a namespace contains into distinct instances. 
 
 Tokens are locked to a namespace; groups can pull in entites and groups from other namespaces
 
+By following some of the best practices I'll outline in the next few slides, you'll gain the confidence to use this feature across your organization, providing some much needed relief to your teams
 
 ---
