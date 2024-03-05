@@ -1,12 +1,12 @@
 layout: true
-class: img-left
+class: img-left-full
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
 name: intro
 
-## Meet Your Presenter, Allison!
-
 ![Allison profile img](./assets/images/slide_images/profile_photo.png)
+
+## Meet Your Presenter, Allison!
 
 - (Future) Senior Enablement Engineer at HashiCorp
 <br></br>
