@@ -4,7 +4,7 @@ background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
 name: question
 
-## How Many of You Can Relate to This?
+# How Many of You Can Relate to This?
 
 ![why_we_do_this_gif](./assets/images/slide_images/why.gif.webp)
 

@@ -9,6 +9,8 @@ name: gettingstarted
 
 ???
 
-Assuming I've sold you on namespaces, what do you do in order to get started? 
+What do you do in order to get started? 
 
 It's pretty easy
+
+---
