@@ -1,23 +1,35 @@
 layout: true
-class: 
+class: compact
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
 name: gettingstarted
 
 ## How to Get Started
 
-Namespace creation happens via the command
+Parent namespace creation via Terraform
 
-```bash
-$ vault namespace create __name__
+```terraform
+resource "vault_namespace" "animal_shelter" {
+    path = "animal_shelter"
+}
 ```
 
+Child namespace creation via Terraform
+
+```terraform
+resource "vault_namespace" "dogs" {
+    namespace = vault_namespace.parent.path
+    path = "dogs"
+}
+```
 
 
 ???
 
-What do you do in order to get started? 
+We recommend using Terraform in order to get started, as it can help you codify your architecture and enable easier automation for spinning up namespaces. 
 
-It's pretty easy. Assuming you've logged into Vault through the CLI, you run the command shown above
+What's happening here is that you're creating a namespace called "animal_shelter" at the root level of Vault. If you're using HCP Vault, there's an actual "root" namespace that is distinct from what we're talking about here, but that's covered in a later discussion.
 
----
+You're then creating a child namespace - one nested within "animal_shelter" - called "dogs". And so maybe this space is specifically for the team that manages man's best friend, versus those who take care of the cats.
+
+--- 
