@@ -20,7 +20,7 @@ Contains:
 
 ???
 
-Namespaces help companies like yours provide their developers with the ability to manage secrets in a self serving manner.
+Namespaces help companies like yours provide their developers with the ability to manage secrets in a self serving manner. Not only can you segment resources out based on environments, teams, or whatever factors underline your organizational structure, you can also apply a hierarchical structure, apply rate limits, and ensure resource quotas are in place per namespace.
 
 You can configure all of the items a namespace contains into distinct instances. 
 
