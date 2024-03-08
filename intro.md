@@ -2,7 +2,7 @@ layout: true
 class: img-left-full
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
-name: intro
+name: intro.md
 
 ![Allison profile img](./assets/images/slide_images/profile_photo.png)
 

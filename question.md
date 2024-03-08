@@ -2,7 +2,7 @@ layout: true
 class: img-right
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
-name: question
+name: question.md
 
 # How Many of You Can Relate to This?
 

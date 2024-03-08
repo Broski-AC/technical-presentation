@@ -2,7 +2,7 @@ layout: true
 class: compact, col-2
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
-name: namespace_def
+name: namespacedef.md
 
 # Introducing Namespaces!
 

@@ -2,13 +2,15 @@ layout: true
 class: compact
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
-name: gettingstarted
+name: gettingstarted.md
 
 # How to Get Started
 
 Parent namespace creation via Terraform
 
-```terraform
+<!-- They don't have HCL / Terraform as a supported language, so I'm using JSON -->
+
+```json
 resource "vault_namespace" "animal_shelter" {
     path = "animal_shelter"
 }
@@ -16,13 +18,12 @@ resource "vault_namespace" "animal_shelter" {
 
 Child namespace creation via Terraform
 
-```terraform
+```json
 resource "vault_namespace" "dogs" {
     namespace = vault_namespace.animal_shelter.path
     path = "dogs"
 }
 ```
-
 
 ???
 
@@ -36,4 +37,4 @@ Children can inherit elements from their parent namespaces, like policies, entit
 
 Parents can also assert policies on identities within a child namespace
 
---- 
+---

@@ -1,13 +1,12 @@
 layout: true
-class: img-right
+class: col-2
 background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
-name: bestpracticeone
+name: practice.md
 
-# Best Practices - P1
+## hellow world 
 
-<!-- content -->
-
-???
+this is my best practice
 
 ---
+
