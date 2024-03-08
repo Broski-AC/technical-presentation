@@ -7,4 +7,3 @@ name: closing.md
 ??? 
 
 Close the presentation
-
