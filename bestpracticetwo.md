@@ -12,8 +12,6 @@ name: bestpracticetwo.md
 - **Codify through Terraform**: use the Vault Terraform module to manage your namespaces
 --
 
-- **Use `group_policy_application_mode`**: fetch secrets from multiple namespaces using Vault Agent
-
 ???
 
 ---
