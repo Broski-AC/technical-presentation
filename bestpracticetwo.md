@@ -14,4 +14,8 @@ name: bestpracticetwo.md
 
 ???
 
+Use namespaces -> Ask if an organizational unit needs to directly manage its own policies; See if you can provide a self-service capability by implementing an onboarding layer; Review the maximum number of namespaces allowed by the storage entry size; the amount of memory recommended is (435 x N) KB memory
+
+Codify -> Use Vault terraform modules, located in the Terraform Registry to enable easy creation and maintenance of namespaces. You can have repeatable infrastructure, and full insight into any changes through Terraform plans/applies; Also works seamlessly w/ the various cloud providers you might be using in conjunction with Vault.
+
 ---

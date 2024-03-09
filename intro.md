@@ -4,7 +4,7 @@ background-image: url(../../assets/images/backgrounds/HashiCorp-Content-bkg.png)
 background-size: cover
 name: intro.md
 
-![Allison profile img](./assets/images/slide_images/profile_photo.png)
+![Allison profile image](./assets/images/slide_images/profile_photo.png)
 
 ## Meet Your Presenter, Allison!
 

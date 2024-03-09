@@ -20,6 +20,6 @@ Plan before -> There are a list of questions on the Hashi website to ask yoursel
 
 Time everything -> As the number of namespaces increases, so too do Vault unsealing and leadership transfer times increase. With even ten namespaces, it will take Vault 5 seconds to unseal
 
-Leverage id -> Make use of ACL templates; dynamic policies are more flexible than static versions, and can simplify the overall policy; Map entites to multiple auth methods and assign them to groups
+Leverage id -> Make use of ACL templates; dynamic policies are more flexible than static versions, and can simplify the overall policy; Map entities to multiple auth methods and assign them to groups
 
 ---
