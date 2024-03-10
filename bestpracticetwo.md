@@ -6,13 +6,14 @@ name: bestpracticetwo.md
 
 # Best Practices II
 
+![Namespaces applied sparingly](./assets/images/slide_images/sparingly_namespace.png)
+
 - **Use namespaces sparingly**: excessive granularity introduces operational overhead and possible storage issues
+<br></br>
 --
 
 - **Codify through Terraform**: use the Vault Terraform module to manage your namespaces
---
 
-![Namespaces applied sparingly](./assets/images/slide_images/sparingly_namespace.png)
 
 ???
 
