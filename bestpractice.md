@@ -6,15 +6,15 @@ name: bestpractice.md
 
 # Best Practices I
 
-- **Plan before implementing**: consider storage constraint and organizational requirements
+- **Plan before implementing**: consider storage constraint and organizational requirements before writing any code
 <br></br>
 --
 
-- **Time everything**: the number of namespaces impact Vault functionality 
+- **Time everything**: the number of namespaces impacts how quickly Vault can recover from incidents
 <br></br>
 --
 
-- **Leverage identity management**: map entities to multiple auth methods and groups
+- **Leverage identity management**: map entities to multiple authenthication methods and groups
 <br></br>
 
 ???
