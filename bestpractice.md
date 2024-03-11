@@ -14,7 +14,7 @@ name: bestpractice.md
 <br></br>
 --
 
-- **Leverage identity management**: map entities to multiple authenthication methods and groups
+- **Leverage identity management**: map entities to multiple authentication methods and groups
 <br></br>
 
 ???
